@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <script src="hamburgerToggle.js"></script>
+  </head>
+  <nav
+    class="navbar is-transparent"
+    role="navigation"
+    aria-label="main navigation"
+  >
+    <div class="navbar-brand">
+      <a
+        style="background-color: transparent !important; cursor: default;"
+        class="navbar-item"
+        href=""
+      >
+        <object
+          style="max-height: 100px; max-width:150px;"
+          data="images/RPRwhite.svg"
+          type="image/svg+xml"
+        >
+          <img src="images/RPRwhite.svg" />
+        </object>
+      </a>
+      <a class="navbar-item" id="number">
+        (360)-555-7777
+      </a>
+      <a
+        role="button"
+        class="navbar-burger burger"
+        style="align-self:center; resize:both"
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="navMenu"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navMenu" class="navbar-menu ">
+      <div class="navbar-end">
+        <a class="navbar-item">
+          Home
+        </a>
+
+        <a class="navbar-item">
+          Portfolio
+        </a>
+        <a class="navbar-item">
+          About
+        </a>
+        <div class="navbar-item is-left has-dropdown is-hoverable">
+          <a class="navbar-item">
+            Services
+          </a>
+          <div class="navbar-dropdown" id="drop">
+            <a class="navbar-item is-transparent" id="drop">
+              Interior
+            </a>
+            <a class="navbar-item" id="drop">
+              Exterior
+            </a>
+            <a class="navbar-item" id="drop">
+              Misc
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <body class="main">
+    <section class="section">
+      <div class="container">
+        <h5 class="subtitle" style="color:white">Future Website of</h5>
+        <h1 style="color:white" class="title">
+          Rabbit Professional Remodel
+        </h1>
+      </div>
+    </section>
+  </body>
+</html>
