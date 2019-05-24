@@ -15,6 +15,12 @@
   top: 100%;
   z-index: 20;
 }
+#drop {
+  color: black;
+}
+#drop:hover {
+  color: blue;
+}
 .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
   color: #3273dc;
 }
@@ -27,4 +33,14 @@ html,
 body,
 nav {
   background-image: url(http://www.userlogos.org/files/backgrounds/soundofemotion/gray_gradient_holograph.jpg);
+}
+.hero.is-info {
+  background-image: url(images/RPRmgm.png) !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.container {
+  position: absolute;
+  top: 20%;
+  left: 2%;
 }
