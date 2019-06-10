@@ -1,106 +1,58 @@
+
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rabbit Professional Remodel</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
-    ></script>
-    <script src="hamburgerToggle.js"></script>
+    <link rel="stylesheet" href="css/icons/foundation-icons.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
   </head>
-  <nav
-    class="navbar is-transparent"
-    role="navigation"
-    aria-label="main navigation"
-  >
-    <div class="navbar-brand">
-      <a
-        style="background-color: transparent !important; cursor: default;"
-        class="navbar-item"
-        href=""
-      >
-        <object
-          style="max-height: 100px; max-width:150px;"
-          data="images/RPRwhite.svg"
-          type="image/svg+xml"
-        >
-          <img src="images/RPRwhite.svg" />
-        </object>
-      </a>
-      <a class="navbar-item" id="number">
-        (360)-555-7777
-      </a>
-      <a
-        role="button"
-        class="navbar-burger burger"
-        style="align-self:center; resize:both"
-        aria-label="menu"
-        aria-expanded="false"
-        data-target="navMenu"
-      >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-
-    <div id="navMenu" class="navbar-menu ">
-      <div class="navbar-end">
-        <a class="navbar-item" href="index.html">
-          Home
-        </a>
-
-        <a class="navbar-item" href="portfolio.html">
-          Portfolio
-        </a>
-        <a class="navbar-item" href="about.html">
-          About
-        </a>
-        <div class="navbar-item is-left has-dropdown is-hoverable">
-          <a class="navbar-item">
-            Services
-          </a>
-          <div class="navbar-dropdown" id="drop">
-            <a
-              class="navbar-item is-transparent"
-              id="drop"
-              href="interior.html"
-            >
-              Interior
-            </a>
-            <a class="navbar-item" id="drop" href="exterior.html">
-              Exterior
-            </a>
-            <a class="navbar-item" id="drop" href="misc.html">
-              Misc
-            </a>
-          </div>
-        </div>
+  <body style="background-color: black">
+    <!--NAVIGATION(TOP BAR)-->
+    <div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title">
+        <img width="25" hieght="25" src="images/RPRwhite.svg" />
       </div>
     </div>
-  </nav>
-  <body class="main">
-    <section class="hero is-info is-large">
-      <div class="hero-body">
-        <div class="container">
-          <h2 style="color:black" class="subtitle ">
-            Future Website of
-          </h2>
-          <h1 style="color:black" class="title">
-            Rabbit Professional Remodel
-          </h1>
-          <h2 style="color:black" class="subtitle ">
-            (About Page)
-          </h2>
-        </div>
+
+    <div class="top-bar" id="menu">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li class="menu-text">Rabbit Professional Remodel</li>
+          <li class="menu-text">(360)-775-1111</li>
+          <li></li>
+        </ul>
       </div>
-    </section>
+      <div class="top-bar-right">
+        <ul class="dropdown vertical medium-horizontal menu" data-dropdown-menu>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li class="has-submenu">
+            <a href="#">Services</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="./exterior.html">Exterior</a></li>
+              <li><a href="./interior.html">Interior</a></li>
+              <li><a href="./misc.html">Misc.</a></li>
+            </ul>
+        </ul>
+      </div>
+    </div>
+    <div class="row">      
+      <h1 style="color: white">Rabbit Professional Remodel: <small>About</small></h1>
+    </div>
+    <div class="grid-x">
+    <div class="cell large-12 small-12">
+        <img class="thumbnail" src="images/RPRmgm.png">
+    </div></div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
