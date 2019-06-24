@@ -85,6 +85,11 @@ button,
 input {
   overflow: visible; }
 
+button.radius, .button.radius {
+    border-radius: 3px; }
+  button.round, .button.round {
+    border-radius: 1000px; }
+
 button,
 select {
   text-transform: none; }
@@ -2692,7 +2697,6 @@ ul.no-bullet, ol.no-bullet {
     position: relative;
     top: 0.4em;
     display: inline-block;
-    float: right;
     margin-left: 1em; }
   .button.dropdown.hollow::after, .button.dropdown.clear::after {
     border-top-color: #1779ba; }
@@ -3092,6 +3096,7 @@ select {
 
 .is-accordion-submenu-parent {
   position: relative; }
+
 
 .has-submenu-toggle > a {
   margin-right: 40px; }
@@ -3817,7 +3822,6 @@ select {
   border-color: transparent #1779ba transparent transparent;
   border-left-width: 0;
   display: inline-block;
-  vertical-align: middle;
   margin-right: 0.75rem; }
 
 .dropdown-pane {
@@ -3868,7 +3872,7 @@ select {
   content: '';
   border-bottom-width: 0;
   border-top-style: solid;
-  border-color: #1779ba transparent transparent;
+  border-color: blue transparent transparent;
   right: 5px;
   left: auto;
   margin-top: -3px; }
@@ -3881,7 +3885,7 @@ select {
 
 .dropdown.menu > li.is-active > a {
   background: transparent;
-  color: #1779ba; }
+  color:white; }
 
 .no-js .dropdown.menu ul {
   display: none; }
